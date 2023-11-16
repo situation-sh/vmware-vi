@@ -1,0 +1,29 @@
+# ArrayOfHostDatastoreSystemVvolDatastoreSpec
+
+A boxed array of *HostDatastoreSystemVvolDatastoreSpec*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**List[HostDatastoreSystemVvolDatastoreSpec]**](HostDatastoreSystemVvolDatastoreSpec.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.array_of_host_datastore_system_vvol_datastore_spec import ArrayOfHostDatastoreSystemVvolDatastoreSpec
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ArrayOfHostDatastoreSystemVvolDatastoreSpec from a JSON string
+array_of_host_datastore_system_vvol_datastore_spec_instance = ArrayOfHostDatastoreSystemVvolDatastoreSpec.from_json(json)
+# print the JSON string representation of the object
+print ArrayOfHostDatastoreSystemVvolDatastoreSpec.to_json()
+
+# convert the object into a dict
+array_of_host_datastore_system_vvol_datastore_spec_dict = array_of_host_datastore_system_vvol_datastore_spec_instance.to_dict()
+# create an instance of ArrayOfHostDatastoreSystemVvolDatastoreSpec from a dict
+array_of_host_datastore_system_vvol_datastore_spec_form_dict = array_of_host_datastore_system_vvol_datastore_spec.from_dict(array_of_host_datastore_system_vvol_datastore_spec_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

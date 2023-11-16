@@ -1,0 +1,29 @@
+# ArrayOfHostProfileManagerCompositionResultResultElement
+
+A boxed array of *HostProfileManagerCompositionResultResultElement*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**List[HostProfileManagerCompositionResultResultElement]**](HostProfileManagerCompositionResultResultElement.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.array_of_host_profile_manager_composition_result_result_element import ArrayOfHostProfileManagerCompositionResultResultElement
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ArrayOfHostProfileManagerCompositionResultResultElement from a JSON string
+array_of_host_profile_manager_composition_result_result_element_instance = ArrayOfHostProfileManagerCompositionResultResultElement.from_json(json)
+# print the JSON string representation of the object
+print ArrayOfHostProfileManagerCompositionResultResultElement.to_json()
+
+# convert the object into a dict
+array_of_host_profile_manager_composition_result_result_element_dict = array_of_host_profile_manager_composition_result_result_element_instance.to_dict()
+# create an instance of ArrayOfHostProfileManagerCompositionResultResultElement from a dict
+array_of_host_profile_manager_composition_result_result_element_form_dict = array_of_host_profile_manager_composition_result_result_element.from_dict(array_of_host_profile_manager_composition_result_result_element_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

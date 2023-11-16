@@ -1,0 +1,29 @@
+# ArrayOfHostFirewallRulesetIpNetwork
+
+A boxed array of *HostFirewallRulesetIpNetwork*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**List[HostFirewallRulesetIpNetwork]**](HostFirewallRulesetIpNetwork.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.array_of_host_firewall_ruleset_ip_network import ArrayOfHostFirewallRulesetIpNetwork
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ArrayOfHostFirewallRulesetIpNetwork from a JSON string
+array_of_host_firewall_ruleset_ip_network_instance = ArrayOfHostFirewallRulesetIpNetwork.from_json(json)
+# print the JSON string representation of the object
+print ArrayOfHostFirewallRulesetIpNetwork.to_json()
+
+# convert the object into a dict
+array_of_host_firewall_ruleset_ip_network_dict = array_of_host_firewall_ruleset_ip_network_instance.to_dict()
+# create an instance of ArrayOfHostFirewallRulesetIpNetwork from a dict
+array_of_host_firewall_ruleset_ip_network_form_dict = array_of_host_firewall_ruleset_ip_network.from_dict(array_of_host_firewall_ruleset_ip_network_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

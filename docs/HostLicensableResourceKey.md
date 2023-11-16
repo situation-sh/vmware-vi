@@ -1,0 +1,29 @@
+# HostLicensableResourceKey
+
+A boxed *HostLicensableResourceKey_enum*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**HostLicensableResourceKeyEnum**](HostLicensableResourceKeyEnum.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.host_licensable_resource_key import HostLicensableResourceKey
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of HostLicensableResourceKey from a JSON string
+host_licensable_resource_key_instance = HostLicensableResourceKey.from_json(json)
+# print the JSON string representation of the object
+print HostLicensableResourceKey.to_json()
+
+# convert the object into a dict
+host_licensable_resource_key_dict = host_licensable_resource_key_instance.to_dict()
+# create an instance of HostLicensableResourceKey from a dict
+host_licensable_resource_key_form_dict = host_licensable_resource_key.from_dict(host_licensable_resource_key_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

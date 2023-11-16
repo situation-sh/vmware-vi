@@ -1,0 +1,29 @@
+# ArrayOfHostUnresolvedVmfsResignatureSpec
+
+A boxed array of *HostUnresolvedVmfsResignatureSpec*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**List[HostUnresolvedVmfsResignatureSpec]**](HostUnresolvedVmfsResignatureSpec.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.array_of_host_unresolved_vmfs_resignature_spec import ArrayOfHostUnresolvedVmfsResignatureSpec
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ArrayOfHostUnresolvedVmfsResignatureSpec from a JSON string
+array_of_host_unresolved_vmfs_resignature_spec_instance = ArrayOfHostUnresolvedVmfsResignatureSpec.from_json(json)
+# print the JSON string representation of the object
+print ArrayOfHostUnresolvedVmfsResignatureSpec.to_json()
+
+# convert the object into a dict
+array_of_host_unresolved_vmfs_resignature_spec_dict = array_of_host_unresolved_vmfs_resignature_spec_instance.to_dict()
+# create an instance of ArrayOfHostUnresolvedVmfsResignatureSpec from a dict
+array_of_host_unresolved_vmfs_resignature_spec_form_dict = array_of_host_unresolved_vmfs_resignature_spec.from_dict(array_of_host_unresolved_vmfs_resignature_spec_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,29 @@
+# ArrayOfCustomizationSysprep
+
+A boxed array of *CustomizationSysprep*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**List[CustomizationSysprep]**](CustomizationSysprep.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.array_of_customization_sysprep import ArrayOfCustomizationSysprep
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ArrayOfCustomizationSysprep from a JSON string
+array_of_customization_sysprep_instance = ArrayOfCustomizationSysprep.from_json(json)
+# print the JSON string representation of the object
+print ArrayOfCustomizationSysprep.to_json()
+
+# convert the object into a dict
+array_of_customization_sysprep_dict = array_of_customization_sysprep_instance.to_dict()
+# create an instance of ArrayOfCustomizationSysprep from a dict
+array_of_customization_sysprep_form_dict = array_of_customization_sysprep.from_dict(array_of_customization_sysprep_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

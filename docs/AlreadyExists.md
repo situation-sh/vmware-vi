@@ -1,0 +1,29 @@
+# AlreadyExists
+
+An AlreadyExists fault is thrown when an attempt is made to add an element to a collection, if the element's key, name, or identifier already exists in that collection. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | **str** |  | [optional] 
+
+## Example
+
+```python
+from vmware_vi.models.already_exists import AlreadyExists
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of AlreadyExists from a JSON string
+already_exists_instance = AlreadyExists.from_json(json)
+# print the JSON string representation of the object
+print AlreadyExists.to_json()
+
+# convert the object into a dict
+already_exists_dict = already_exists_instance.to_dict()
+# create an instance of AlreadyExists from a dict
+already_exists_form_dict = already_exists.from_dict(already_exists_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,29 @@
+# ManagedEntityStatus
+
+A boxed *ManagedEntityStatus_enum*. To be used in *Any* placeholders. 
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**ManagedEntityStatusEnum**](ManagedEntityStatusEnum.md) |  | 
+
+## Example
+
+```python
+from vmware_vi.models.managed_entity_status import ManagedEntityStatus
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ManagedEntityStatus from a JSON string
+managed_entity_status_instance = ManagedEntityStatus.from_json(json)
+# print the JSON string representation of the object
+print ManagedEntityStatus.to_json()
+
+# convert the object into a dict
+managed_entity_status_dict = managed_entity_status_instance.to_dict()
+# create an instance of ManagedEntityStatus from a dict
+managed_entity_status_form_dict = managed_entity_status.from_dict(managed_entity_status_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
